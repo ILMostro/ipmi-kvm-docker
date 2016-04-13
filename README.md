@@ -1,6 +1,6 @@
 ## ipmi-kvm-docker
 
-Ever wanted to access and IPMI KVM console, only to find that you don't
+Ever wanted to access an IPMI KVM console, only to find that you don't
 have network access or the right version of java or a compatible 
 browser or credentials?
 
@@ -8,7 +8,7 @@ This container runs:
 
 * Xvfb - X11 in a virtual framebuffer
 * x11vnc - A VNC server that scrapes the above X11 server
-* [noNVC](https://kanaka.github.io/noVNC/) - A HTML5 canvas vnc viewer
+* [noVNC](https://kanaka.github.io/noVNC/) - A HTML5 canvas vnc viewer
 * Fluxbox - a small window manager
 * Firefox - For browsing IPMI consoles
 * Java-plugin - Because... you need java to access most IPMI KVM Consoles.
@@ -26,6 +26,6 @@ on the Docker Hub.
     xdg-open http://admin:8080
 
 In your web browser you should see the firefox, ready to connect to 
-and IPMI KVM:
+an IPMI KVM:
 
 ![IPMI Screenshot](https://raw.githubusercontent.com/solarkennedy/ipmi-kvm-docker/master/screenshot.png)
